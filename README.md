@@ -14,10 +14,14 @@ The first path is a current directory. The second path is a new directory.  To m
 1) Clone repository
 2) Ensure go environment is set up: https://go.dev/doc/install
 3) The program can be run by one of the two options below:
-    - Run from source `go run main.go path.go`
-    - Compile `mycd` executable: `go build -o mycd main.go path.go`. Optionally the exectable can be copied into the path
+    - Run from source `go run main.go path.go <current_path> <destination_path>`
+    - Compile `mycd` executable: `go build -o mycd main.go path.go`. The mycd executable can be run as follows `./mycd <current_path> <destination_path>`. Optionally the `mycd` executable can be copied to the system path.
 
 The usage is exactly the same as described in the problem statement
+
+## Test results
+
+The tests provided in the problem statement are all passing.
 
 ## How to run automated tests
 
